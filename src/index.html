@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <h3 class="indigo-text darken-4">Search Breweries by State</h3>
+    <section id="brewery-input-container" class="row">
+        <div class="col s6">
+            <input type="text" id="brewery-search-input" placeholder="Enter a state">
+        </form>
+        <button id="brewery-search-button" class="btn waves-effect waves-light blue darken-2">Search</button>
+    </section>
+
+    <section id="brewery-output-container">
+        <!--We'll print breweries from the API here-->
+    </section>
+
+    <script src="scripts/apiManager.js"></script>
+    <script src="scripts/domPrinter.js"></script>
+    <script src="scripts/eventListener.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
